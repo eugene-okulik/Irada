@@ -6,3 +6,4 @@
 }
 
 Adding some text. (Делаю изменения)
+Testing and adding a message second time.
