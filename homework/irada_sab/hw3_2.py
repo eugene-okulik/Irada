@@ -5,4 +5,4 @@ y = 50
 
 z = (x - y) / (1 + x * y)
 
-print (z)
+print(z)

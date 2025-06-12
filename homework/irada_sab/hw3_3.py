@@ -3,9 +3,9 @@
 q = 500
 w = 7
 
-print ((q + w) / 2)
+print((q + w) / 2)
 
 
 x = (q * w)
 
-print (x ** 0.5)
+print(x ** 0.5)
