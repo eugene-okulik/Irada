@@ -3,6 +3,6 @@
 x = 200
 y = 50
 
-z = (x - y)/(1 + x * y)
+z = (x - y) / (1 + x * y)
 
-print(z)
+print (z)

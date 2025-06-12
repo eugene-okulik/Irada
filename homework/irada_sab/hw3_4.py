@@ -5,9 +5,9 @@ cath2 = 5
 
 hptz = ((cath1**2 + cath2**2)) **0.5    # Найти его гипотенузу
 
-print ( hptz )
+print (hptz)
 
 
-squ = ((cath1 * cath2) /2 )     # Найти его площадь
+squ = ((cath1 * cath2) / 2)     # Найти его площадь
 
-print(squ)
+print (squ)

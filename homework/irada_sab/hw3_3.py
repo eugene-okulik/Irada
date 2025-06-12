@@ -8,4 +8,4 @@ print ((q + w) / 2)
 
 x = (q * w)
 
-print ( x ** 0.5 )
+print (x ** 0.5)
