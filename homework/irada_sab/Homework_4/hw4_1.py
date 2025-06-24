@@ -14,7 +14,7 @@ my_dict['list'].append('addedlist')
 my_dict['list'].pop(1)
 
 
-my_dict['I am a tuple'] = 'addedvalue'
+my_dict[('I am a tuple',)] = 'addedvalue'
 del my_dict['dict']
 
 
