@@ -2,6 +2,7 @@ fresult = 'operation result: 42'
 sresult = 'operation result: 514'
 fprogram = 'result of programs work: 9'
 
+
 findex = fresult.index(':')
 findex2 = sresult.index(':')
 findex3 = fprogram.index(':')
