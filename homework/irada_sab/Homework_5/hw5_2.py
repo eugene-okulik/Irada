@@ -7,11 +7,11 @@ findex2 = sresult.index(':')
 findex3 = fprogram.index(':')
 
 
-firstres = int(fresult[findex+2:])
+firstres = int(fresult[findex + 2:])
 print(firstres + 10)
 
-secres = int(sresult[findex2+2:])
+secres = int(sresult[findex2 + 2:])
 print(secres + 10)
 
-third = int(fprogram[findex3+2:])
+third = int(fprogram[findex3 + 2:])
 print(third + 10)
