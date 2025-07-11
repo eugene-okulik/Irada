@@ -1,7 +1,8 @@
-""" добавляет ‘ing’ в конец слов (к каждому слову)и после этого выводит получившийся текст на экран.
-Знаки препинания не должны оказаться внутри слова."""
+""" добавляет ‘ing’ в конец слов (к каждому слову)и после этого выводит получившийся
+текст на экран. Знаки препинания не должны оказаться внутри слова."""
 
-my_text = 'Etiam tincidunt neque erat, quis molestie enim imperdiet vel. Integer urna nisl, facilisis vitae semper at, dignissim vitae libero'
+my_text = ('Etiam tincidunt neque erat, quis molestie enim imperdiet vel. '
+           'Integer urna nisl, facilisis vitae semper at, dignissim vitae libero')
 my_ing = 'ing'
 
 all_words = my_text.split()
@@ -16,5 +17,5 @@ for word in all_words:
     splits.append(new_word)
 
 new_text = ' '.join(splits)    # Join with spaces
-print(new_text)
 
+print(new_text)
