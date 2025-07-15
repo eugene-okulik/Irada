@@ -13,4 +13,3 @@ while True:
         print('Try again!')
 
 print('Game is over!')
-
