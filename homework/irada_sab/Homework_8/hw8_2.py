@@ -8,6 +8,7 @@ def fibonacci():
         yield num_a
         num_a, num_b = num_b, num_a + num_b
 
+
 def find_fibo(*my_num):
     fib_num = fibonacci()
     max_num = max(my_num)
@@ -16,6 +17,7 @@ def find_fibo(*my_num):
             print(f"The {indx}th Fibonacci number is: {num}")
         if indx >= max_num:
             break
+
 
 # Can't print the 100000th Fibonacci numbers :(
 find_fibo(5, 200, 1000, 100000)

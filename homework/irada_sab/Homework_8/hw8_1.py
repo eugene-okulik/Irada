@@ -11,7 +11,7 @@ salary = int(input("What is your salary? "))
 bonus = random.choice([True, False])
 my_bonus = int(random.randint(100, 5000))
 
-if bonus == True:
+if bonus:      # means if bonus == True:
     print(f" {salary}, {bonus} - '${salary + my_bonus}'")
 else:
     print(f" {salary}, {bonus} - '${salary}'")
