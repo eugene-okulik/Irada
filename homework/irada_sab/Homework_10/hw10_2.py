@@ -24,5 +24,5 @@ def my_func(forargs):
     print(forargs)
 
 
-my_func('print me', count = 2)
+my_func('print me', count=2)
 my_func('test')

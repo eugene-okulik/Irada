@@ -13,7 +13,7 @@
 
 
 def decor_func(func):
-    def wrapper(first, second, operation = None):
+    def wrapper(first, second, operation=None):
         if first < 0 or second < 0:
             operation = '*'
         elif first == second:
