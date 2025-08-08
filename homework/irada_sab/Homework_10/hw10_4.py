@@ -1,0 +1,26 @@
+# List comprehension
+# прайс лист: (Копируйте эту переменную (константу) в код прямо как есть)
+# PRICE_LIST = '''тетрадь 50р
+# книга 200р
+# ручка 100р
+# карандаш 70р
+# альбом 120р
+# пенал 300р
+# рюкзак 500р'''
+# При помощи list comprehension и/или dict comprehension превратите этот текст в словарь такого вида:
+# {'тетрадь': 50, 'книга': 200, 'ручка': 100, 'карандаш': 70, 'альбом': 120, 'пенал': 300, 'рюкзак': 500}
+# В выполнении не должно быть циклов.
+# Обратите внимание, что цены в словаре имеют тип int (они не в кавычках)
+
+
+PRICE_LIST = '''notebook 50r
+book 200r
+pen 100r
+pencil 70r
+album 120r
+pencil-case 300r
+backpack 500r'''
+
+school_prod = {name: int(price.replace('r', '')) for name, price in (item.split() for item in PRICE_LIST.split('\n'))}
+
+print(school_prod)
