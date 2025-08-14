@@ -10,12 +10,12 @@ class Book:
     page_material = 'paper'
     txt_presence = True
 
-    def __init__(self, title, author, pages_count, isbn, reserved = False):
-         self.title = title
-         self.author = author
-         self.pages_count = pages_count
-         self.isbn = isbn
-         self.reserved = reserved
+    def __init__(self, title, author, pages_count, isbn, reserved=False):
+        self.title = title
+        self.author = author
+        self.pages_count = pages_count
+        self.isbn = isbn
+        self.reserved = reserved
 
     def __str__(self):
         reserved_status = ', Reserved' if self.reserved else ''
@@ -47,7 +47,7 @@ for book in [book1, book2, book3, book4, book5]:
 
 
 class SchoolBook(Book):
-    def __init__(self, title, author, pages_count, isbn, subject, grade, assignment, reserved = False):
+    def __init__(self, title, author, pages_count, isbn, subject, grade, assignment, reserved=False):
         super().__init__(title, author, pages_count, isbn, reserved)
         self.subject = subject
         self.grade = grade
