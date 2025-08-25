@@ -18,7 +18,8 @@ class Flower:
         self.lifespan = lifespan
 
     def __str__(self):
-        return f"{self.name} ({self.color}), freshness: {self.freshness}, stem length: {self.stem_length}, price: ${self.price}, lifespan: {self.lifespan} days."
+        return (f"{self.name} ({self.color}), freshness: {self.freshness}, stem length: "
+                f"{self.stem_length}, price: ${self.price}, lifespan: {self.lifespan} days.")
 
 
 class Rose(Flower):
