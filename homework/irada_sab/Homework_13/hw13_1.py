@@ -41,7 +41,6 @@ def process_date(line):
             days_ago = (now - date_obj).days
             print(f"{number}. {days_ago}")
 
-
     except ValueError as e:
         print(f"{number}. Time or Date errors: {e}")
 
